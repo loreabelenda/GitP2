@@ -1,6 +1,15 @@
 #include <stdio.h>
 
+int ItsOk(){
+  return 0;
+}
+
+void Hello(){
+  printf("Hello");
+}
+
 int main(){
   printf("Hello world!");
-  return 0;
+  Hello();
+  return ItsOk();
 }
